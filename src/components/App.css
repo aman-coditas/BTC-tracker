@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.Header {
+  margin: auto;
+  font-size: 45px;
+  font-family: "Roboto";
+  display: flexbox;
+  text-align: center;
+  color: #f2a900;
+}
+
+.hdiv {
+  margin-top: auto;
+  background-color: #547acc;
+}
+
+#bitcoin {
+  margin: auto;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+#bitcoin td,
+#bitcoin th {
+  border: 1px solid #ddd;
+  padding: 7px;
+  text-align: center;
+}
+
+#bitcoin tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+#bitcoin tr:hover {
+  background-color: #f2a900;
+}
+
+#bitcoin th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #446bbe;
+  color: rgb(255, 255, 255);
+}
+
+table {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+#bear {
+  color: rgb(243, 73, 73);
+}
+
+#bull {
+  color: rgb(46, 163, 46);
+}

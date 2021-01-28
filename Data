@@ -1,0 +1,26 @@
+ if (index === 0) {
+            return (
+              <tr key={index}>
+                <td>{Time}</td>
+                <td>{USD}</td>
+                <td>{EUR}</td>
+                <td>{GBP}</td>
+              </tr>
+            );
+          } else if (
+            index > 0 &&
+            arr[index - 1].USD > 0 &&
+            arr[index - 1].USD < arr[index].USD
+          ) { else {
+            return (
+              <tr key={index}>
+                <td>{Time}</td>
+                <td>{USD}</td>
+                <td>{EUR}</td>
+                <td>{GBP}</td>
+                <td>
+                  <i className="fas fa-arrow-down"></i>
+                </td>
+              </tr>
+            );
+          }
